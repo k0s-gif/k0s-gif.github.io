@@ -1,0 +1,143 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.html {
+  font-size: 62.5%;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 11vh;
+  background-color: rgb(228, 186, 123);
+  border-bottom: solid 0.5px;
+}
+
+.nav-menu {
+  display: flex;
+  justify-content: space-around;
+  width: 30%;
+}
+
+body {
+  font-family: "Open Sans Condensed", sans-serif;
+}
+
+.nav-menu li {
+  list-style: none;
+  font-size: 1.75rem;
+  cursor: pointer;
+}
+
+.img-section {
+  background-image: url(./img/bread-food-grain-brown-42064.jpg);
+  height: 40rem;
+  background-size: cover;
+  background-position-y: -15rem;
+  color: rgb(241, 237, 237);
+  text-align: center;
+  padding-top: 15rem;
+  font-size: 4rem;
+  text-shadow: 0 0 7px black, 0 0 7px black;
+  border-bottom: solid 0.5px;
+}
+
+.img-sec {
+  background-image: url(./img/food-france-morning-breakfast-2135.jpg);
+}
+
+.img-bottom {
+  position: relative;
+  top: 0;
+  width: 100%;
+  height: 11vh;
+  background-color: rgb(228, 186, 123);
+  border-bottom: solid 0.5px;
+  border-top: solid 0.5px;
+}
+
+.main-content {
+  position: relative;
+  top: 0;
+  width: 80%;
+  background-color: rgb(255, 255, 255);
+  margin: auto;
+  height: 24rem;
+  text-align: center;
+}
+
+.main-content h1 {
+  font-size: 3rem;
+}
+
+.main-content p {
+  font-size: 2rem;
+}
+
+.main-content-text {
+  position: relative;
+  width: 100%;
+  top: 8rem;
+  height: 100%;
+}
+
+.pos-rel {
+  transform: translateY(-1px);
+}
+
+.social-menu ul {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+.social-menu ul li {
+  list-style: none;
+  margin: 0 10px;
+}
+.social-menu ul li .fa {
+  color: #000000;
+  font-size: 25px;
+  line-height: 50px;
+  transition: 0.5s;
+}
+.social-menu ul li .fa:hover {
+  color: #ffffff;
+}
+.social-menu ul li a {
+  position: relative;
+  display: block;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: white;
+  text-align: center;
+  transition: 0.5s;
+  transform: translate(0, 0px);
+  box-shadow: 0px 7px 5px rgba(0, 0, 0, 0.5);
+}
+.social-menu ul li a:hover {
+  transform: rotate(0deg) skew(0deg) translate(0, -10px);
+}
+.social-menu ul li:nth-child(1) a:hover {
+  background-color: #3b5999;
+}
+.social-menu ul li:nth-child(2) a:hover {
+  background-color: #55acee;
+}
+.social-menu ul li:nth-child(3) a:hover {
+  background-color: #e4405f;
+}
+.social-menu ul li:nth-child(4) a:hover {
+  background-color: #cd201f;
+}
+.social-menu ul li:nth-child(5) a:hover {
+  background-color: #0077b5;
+}
